@@ -14,10 +14,10 @@
     <main>
         <header>
             <img src="img/logo-culturama.png" alt="logo-culturama">
-            <h1>Pesquisa Online</h1>
+            <h1>Pesquisa de Opnião</h1>
         </header>
             <section>
-                <form action="" method="get">
+                <form action="sucess.html" method="get">
                     <fieldset>
                         <legend>Dados pessoais</legend>
                         <label for="name">Nome:</label>
@@ -33,7 +33,7 @@
                         <input id="email" type="email" name="userEmail" placeholder="Digite seu E-mail" required><br>
                         
                         <label for="phoneNumber">Telefone:</label>
-                        <input id="phoneNumber" type="tel" name="userPhoneNumber" placeholder="DDD+ numero sem espaço ou hifen" pattern="0-9"{11}><br>
+                        <input id="phoneNumber" type="tel" name="userPhoneNumber" placeholder="DDD+ numero sem espaço ou hifen" pattern="[0-9]{11}"><br>
                         
                         <label for="image">Upload de foto:</label>
                         <input id="image" type="file" accept="Image/*" name="userImage"><br>
@@ -142,12 +142,12 @@
                     <fieldset>
                         <legend>Confirmações</legend>
                         <input type="checkbox" name="userLGPD" id="userLgpdTerm" value="accepted" required>
-                        <label for="userLgpdTerm">Eu aceito partcipar da pesquisa</label><br>
+                        <label for="userLgpdTerm">Eu aceito participar da pesquisa</label><br>
 
                         <input type="checkbox" name="userGetResult" id="getResult" value="accepted">
                         <label for="getResult">Desejo receber o resultado por e-mail</label><br>
                     </fieldset>
-                        
+        
                     <button type="submit">Enviar</button>
                     <button type="reset">Limpar</button>
                 </form>
