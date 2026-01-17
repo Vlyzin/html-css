@@ -32,6 +32,7 @@ form{
     background-color: #FFF;
     padding: 15px;
     border-radius: 10px;
+    margin-bottom: 100px;
 }
 
 fieldset{
@@ -50,6 +51,11 @@ legend{
 label{
     display: inline-block;
     margin-bottom: 5px;
+}
+
+p{
+    margin-bottom: 15px;
+    font-weight: 700;
 }
 
 input, select, textarea{
@@ -72,5 +78,28 @@ input[type="checkbox"]{
 input[type="color"]{
     width: 40px;
     padding: 0 5px;
+}
+
+input:invalid, select:invalid, textarea:invalid{
+    border-color: red;
+}
+
+button{
+    width: 100px;
+    height: 30px;
+    margin-right: 10px;
+    background-color: #FFF;
+    border: 1px solid #ccc;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover{
+    background-color: green;
+    color: #FFF;
+}
+
+button[type="reset"]:hover{
+    background-color: orangered;
+    color: #FFF;
 }
 
