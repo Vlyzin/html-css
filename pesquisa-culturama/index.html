@@ -89,7 +89,6 @@
 
                 <label for="cidade">Cidade:</label>
                 <input id="city" type="text" name="userCity">
-
             </fieldset>
 
             <fieldset>
@@ -129,13 +128,23 @@
 
                 <input id="regular" type="radio" name="userGender" value="Regular">
                 <label for="regular">Regular</label><br>
-                <br>
 
                 <label for="comment">Comentario:</label>
                 <textarea id="comment" name="userComment" placeholder="Deixe aqui seu comentario"></textarea>
+            </fieldset>
 
+            <fieldset>
+                <legend>Confirmações</legend>
+                <input type="checkbox" name="userLGPD" id="userLgpdTerm" value="accepted" required>
+                <label for="userLgpdTerm">Eu aceito partcipar da pesquisa</label><br>
+
+                <input type="checkbox" name="userGetResult" id="getResult" value="accepted">
+                <label for="getResult">Desejo receber o resultado por e-mail</label><br>
             </fieldset>
                 
+
+
+
             <button type="submit">Enviar</button>
         </form>
     </section>
