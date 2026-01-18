@@ -10,17 +10,21 @@
 
   <body>
     <header>
-      <a href="index.html" title="Retornar a pagina inicial">
-        <img src="img/bussola-jornada-w.png" alt="Bussola do logo joranada viagens cor branca" />
+      <a class="logo" href="index.html" title="Retornar a pagina inicial">
+        <img class="img-mobile" src="img/bussola-jornada-branco.png" alt="Bussola do logo joranada viagens cor branca" />
+        <img class="img-desktop" src="img/bussola-texto-jornada-branco.png" alt="Logo joranada viagens cor branca" />
       </a>
-      <img src="img/menu.png" alt="Menu hamburguer" />
-      <nav>
-        <ul>
-          <li><a href="blog.html" target="__blank" title="Acessar Blog">Blog</a></li>
-          <li><a href="pacotes.html" target="__blank" title="Acessar Pacotes de viagem">Pacotes de viagem</a></li>
-          <li><a href="contato.html" target="__blank" title="Acessar Contato">Contato</a></li>
-        </ul>
-      </nav>
+      <div class="navigation-menu">
+        <label for="menu"><img src="img/menu.png" alt="Menu hamburguer" /></label>
+        <input type="checkbox" id="menu" hidden />
+        <nav>
+          <ul class="list-links">
+            <li><a href="blog.html" target="__blank" title="Acessar Blog">Blog</a></li>
+            <li><a href="pacotes.html" target="__blank" title="Acessar Pacotes de viagem">Pacotes de viagem</a></li>
+            <li><a href="contato.html" target="__blank" title="Acessar Contato">Contato</a></li>
+          </ul>
+        </nav>
+      </div>
     </header>
   </body>
 </html>
