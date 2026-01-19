@@ -10,10 +10,6 @@
   gap: 24px;
 }
 
-.destination-items h4 {
-  font-size: 28px;
-}
-
 .destinations .img-item {
   width: 312px;
   height: 360px;
@@ -32,8 +28,6 @@
 
 .destinations .item p {
   margin-bottom: 24px;
-  font-size: 20px;
-  font-weight: var(--text-weight);
 }
 
 .destinations .item a {
