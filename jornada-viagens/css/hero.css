@@ -5,12 +5,12 @@
 }
 
 .hero .hero-img {
-  background: url(../img/hero-mobile.png) no-repeat;
+  background: url(../img/index/hero-mobile.png) no-repeat;
   background-size: cover;
 }
 
 .bottom-hero .hero-img {
-  background: url(../img/footer-mobile.png) no-repeat;
+  background: url(../img/index/footer-mobile.png) no-repeat;
   background-size: cover;
 }
 
@@ -24,16 +24,61 @@
   line-height: 1.5;
 }
 
+/*
+-----------------
+Pacote-Viagens 
+-----------------
+*/
+
+.destinations-packages.hero {
+  margin-bottom: 88px;
+}
+.destinations-packages .hero-img {
+  height: 460px;
+  background: url(../img/destinations-page/japao-hero-mobile.png) no-repeat;
+  background-size: cover;
+  width: 100%;
+}
+.destinations-packages.bottom-hero .hero-img {
+  background: url(../img/destinations-page/japao-footer-mobile.png) no-repeat;
+  background-size: cover;
+}
+.destinations-packages .hero-content {
+  padding: 65px 24px;
+}
+.destinations-packages .hero-content h1 {
+  font-size: 48px;
+  color: var(--text-secondary-color);
+  font-weight: var(--title-weight);
+}
+.destinations-packages .hero-content hr {
+  width: 180px;
+  height: 4px;
+  background-color: var(--secondary-color);
+  border: none;
+  margin: 16px 0 32px;
+}
+.destinations-packages .hero-content p {
+  font-size: 20px;
+  color: var(--text-secondary-color);
+  font-weight: var(--text-weight);
+  line-height: 32px;
+}
+
+.destinations-packages.hero {
+  margin-bottom: 88px;
+}
+
 @media screen and (min-width: 768px) {
   .hero .hero-img {
     height: 620px;
-    background: url(../img/hero-tablet.png) no-repeat;
+    background: url(../img/index/hero-tablet.png) no-repeat;
     background-size: cover;
   }
 
   .bottom-hero .hero-img {
     height: 400px;
-    background: url(../img/footer-tablet.png) no-repeat;
+    background: url(../img/index/footer-tablet.png) no-repeat;
     background-size: cover;
   }
 
@@ -41,22 +86,75 @@
     padding: 88px 60px;
     font-size: 32px;
   }
+  /*
+-----------------
+Pacote-Viagens 
+-----------------
+*/
+
+  .destinations-packages .hero-content {
+    padding: 210px 70px 107px;
+  }
+
+  .destinations-packages .hero-content p {
+    font-size: 32px;
+    line-height: 48px;
+  }
+  .destinations-packages .hero-img {
+    background: url(../img/destinations-page/japao-hero-tablet.png) no-repeat;
+    background-size: cover;
+    height: 620px;
+  }
+  .destinations-packages.bottom-hero .hero-img {
+    height: 400px;
+    background: url(../img/destinations-page/japao-footer-tablet.png) no-repeat;
+    background-size: cover;
+  }
 }
 
 @media screen and (min-width: 1024px) {
   .hero .hero-img {
-    background: url(../img/hero-desktop.png) no-repeat;
+    background: url(../img/index/hero-desktop.png) no-repeat;
     background-size: cover;
   }
 
   .bottom-hero .hero-img {
     height: 600px;
-    background: url(../img/footer-desktop.png) no-repeat;
+    background: url(../img/index/footer-desktop.png) no-repeat;
     background-size: cover;
   }
 
   .hero h2 {
     padding: 88px 120px;
+  }
+}
+
+/*
+-----------------
+Pacote-Viagens 
+-----------------
+*/
+
+.travel-packages .hero-content {
+  padding: 150px 120px 170px;
+  margin: 0 auto;
+}
+.travel-packages .hero-content p {
+  width: 570px;
+}
+.travel-packages .hero-img {
+  background: url(../img/destinations-page/japao-hero-desktop.png) no-repeat;
+  background-size: cover;
+}
+.travel-packages.bottom-hero .hero-img {
+  height: 600px;
+  background: url(../img/destinations-page/japao-footer-desktop.png) no-repeat;
+  background-size: cover;
+}
+
+@media screen and (min-width: 1440px) {
+  .travel-packages .hero-content {
+    width: 1200px;
   }
 }
 
