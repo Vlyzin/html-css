@@ -83,6 +83,7 @@ section {
   font-size: 28px;
   font-weight: var(--title-weight);
   margin: 0px 0px 24px;
+  margin-top: 24px;
 }
 
 .content-text {
