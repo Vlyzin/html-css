@@ -6,7 +6,7 @@
 }
 
 .offers-cards .card {
-  color: var(--text-secundary-color);
+  color: var(--text-secondary-color);
   background-color: black;
   width: 312px;
   height: 288px;

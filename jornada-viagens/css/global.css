@@ -13,7 +13,7 @@
   --background-secondary-color: #f5f5f5;
   --background-tertiary-color: #000;
   --text-primary-color: #222222;
-  --text-secundary-color: #ffffff;
+  --text-secondary-color: #ffffff;
 
   --title-weight: 700;
   --text-weight: 400;
@@ -59,7 +59,8 @@ section {
   margin-bottom: 32px;
 }
 
-section.hero {
+section.hero,
+section.bottom-hero {
   width: 100%;
   margin: 0;
 }
@@ -95,7 +96,7 @@ section.hero {
 .button {
   min-width: 280px;
   height: 64px;
-  color: var(--text-secundary-color);
+  color: var(--text-secondary-color);
   font-weight: var(--title-weight);
   font-size: 20px;
   background-color: var(--secundary-color);
