@@ -3,12 +3,10 @@
   height: 400px;
   width: 100%;
 }
-
 .hero .hero-img {
   background: url(../img/index/hero-mobile.png) no-repeat;
   background-size: cover;
 }
-
 .bottom-hero .hero-img {
   background: url(../img/index/footer-mobile.png) no-repeat;
   background-size: cover;
@@ -19,17 +17,11 @@
   margin: 0px;
   font-weight: var(--text-weight);
   font-size: 20px;
-  font-family: "Montserrat";
-  text-align: center;
   line-height: 1.5;
+  text-align: center;
 }
 
-/*
------------------
-Pacote-Viagens 
------------------
-*/
-
+/* PACOTES DE VIAGENS */
 .destinations-packages.hero {
   margin-bottom: 88px;
 }
@@ -37,7 +29,6 @@ Pacote-Viagens
   height: 460px;
   background: url(../img/destinations-page/japao-hero-mobile.png) no-repeat;
   background-size: cover;
-  width: 100%;
 }
 .destinations-packages.bottom-hero .hero-img {
   background: url(../img/destinations-page/japao-footer-mobile.png) no-repeat;
@@ -65,17 +56,12 @@ Pacote-Viagens
   line-height: 32px;
 }
 
-.destinations-packages.hero {
-  margin-bottom: 88px;
-}
-
 @media screen and (min-width: 768px) {
   .hero .hero-img {
     height: 620px;
     background: url(../img/index/hero-tablet.png) no-repeat;
     background-size: cover;
   }
-
   .bottom-hero .hero-img {
     height: 400px;
     background: url(../img/index/footer-tablet.png) no-repeat;
@@ -86,12 +72,7 @@ Pacote-Viagens
     padding: 88px 60px;
     font-size: 32px;
   }
-  /*
------------------
-Pacote-Viagens 
------------------
-*/
-
+  /* PACOTES DE VIAGENS */
   .destinations-packages .hero-content {
     padding: 210px 70px 107px;
   }
@@ -123,37 +104,30 @@ Pacote-Viagens
     background: url(../img/index/footer-desktop.png) no-repeat;
     background-size: cover;
   }
-
   .hero h2 {
     padding: 88px 120px;
   }
-}
-
-/*
------------------
-Pacote-Viagens 
------------------
-*/
-
-.travel-packages .hero-content {
-  padding: 150px 120px 170px;
-  margin: 0 auto;
-}
-.travel-packages .hero-content p {
-  width: 570px;
-}
-.travel-packages .hero-img {
-  background: url(../img/destinations-page/japao-hero-desktop.png) no-repeat;
-  background-size: cover;
-}
-.travel-packages.bottom-hero .hero-img {
-  height: 600px;
-  background: url(../img/destinations-page/japao-footer-desktop.png) no-repeat;
-  background-size: cover;
+  /* PACOTES DE VIAGENS */
+  .destinations-packages .hero-content {
+    padding: 150px 120px 170px;
+    margin: 0 auto;
+  }
+  .destinations-packages .hero-content p {
+    width: 570px;
+  }
+  .destinations-packages .hero-img {
+    background: url(../img/destinations-page/japao-hero-desktop.png) no-repeat;
+    background-size: cover;
+  }
+  .destinations-packages.bottom-hero .hero-img {
+    height: 600px;
+    background: url(../img/destinations-page/japao-footer-desktop.png) no-repeat;
+    background-size: cover;
+  }
 }
 
 @media screen and (min-width: 1440px) {
-  .travel-packages .hero-content {
+  .destinations-packages .hero-content {
     width: 1200px;
   }
 }

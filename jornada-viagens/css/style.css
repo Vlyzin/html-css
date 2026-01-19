@@ -1,9 +1,9 @@
 @import url(global.css);
 @import url(header.css);
 @import url(hero.css);
-@import url(./index-css/offers.css);
-@import url(./index-css/categories.css);
-@import url(./index-css/destinations.css);
-@import url(./index-css/payments.css);
-@import url(./index-css/testimonials.css);
+@import url(offers.css);
+@import url(categories.css);
+@import url(destinations.css);
+@import url(payments.css);
+@import url(testimonials.css);
 @import url(footer.css);

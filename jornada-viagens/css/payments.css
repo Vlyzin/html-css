@@ -8,17 +8,17 @@
 }
 
 .payments .content-container .image-gallery .image.first {
-  background: url(../../img/index/mala-mobile.png) no-repeat;
+  background: url(../img/index/mala-mobile.png) no-repeat;
   background-size: cover;
 }
 
 .payments .content-container .image-gallery .image.secound {
-  background: url(../../img/index/passaporte-mobile.png) no-repeat;
+  background: url(../img/index/passaporte-mobile.png) no-repeat;
   background-size: cover;
 }
 
 .payments .content-container .image-gallery .image.third {
-  background: url(../../img/index/pessoas-mobile.png) no-repeat;
+  background: url(../img/index/pessoas-mobile.png) no-repeat;
   background-size: cover;
 }
 
@@ -28,17 +28,17 @@
 
 @media screen and (min-width: 768px) {
   .payments .content-container .image-gallery .image.first {
-    background: url(../../img/index/mala-tablet.png) no-repeat;
+    background: url(../img/index/mala-tablet.png) no-repeat;
     background-size: cover;
   }
 
   .payments .content-container .image-gallery .image.secound {
-    background: url(../../img/index/passaporte-tablet.png) no-repeat;
+    background: url(../img/index/passaporte-tablet.png) no-repeat;
     background-size: cover;
   }
 
   .payments .content-container .image-gallery .image.third {
-    background: url(../../img/index/pessoas-tablet.png) no-repeat;
+    background: url(../img/index/pessoas-tablet.png) no-repeat;
     background-size: cover;
   }
 }

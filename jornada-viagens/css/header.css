@@ -79,6 +79,14 @@ nav {
     padding: 0;
     width: 467px;
   }
+
+  .navigation-menu a:hover {
+    color: var(--primary-color);
+  }
+
+  .navigation-menu a.active {
+    text-decoration: underline;
+  }
 }
 
 @media screen and (min-width: 1024px) {
@@ -97,14 +105,6 @@ nav {
 
   .img-desktop {
     display: block;
-  }
-
-  .navigation-menu a:hover {
-    color: var(--primary-color);
-  }
-
-  .navigation-menu a.active {
-    text-decoration: underline;
   }
 }
 
