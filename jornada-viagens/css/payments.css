@@ -7,10 +7,6 @@
   width: 100%;
 }
 
-.payments .content-container {
-  display: flex;
-}
-
 .payments .content-container .image-gallery .image.first {
   background: url(../img/mala-mobile.png) no-repeat;
   background-size: cover;
@@ -50,6 +46,7 @@
 @media screen and (min-width: 1440px) {
   .payments .content-container {
     justify-content: space-between;
+    display: flex;
   }
 
   .payments .content-container .text-content {
@@ -58,5 +55,6 @@
 
   .payments .content-container .image-gallery {
     width: 790px;
+    margin: 0;
   }
 }
