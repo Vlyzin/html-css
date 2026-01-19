@@ -26,6 +26,27 @@
   grid-column: span 2;
 }
 
+/* PACOTES DE VIAGENS */
+
+.payments .content-title-strong {
+  font-size: 40px;
+}
+
+.destinations-packages.payments .content-container .image-gallery .image.first {
+  background: url(../img/destinations-page/templo-japao-mobile.png) no-repeat;
+  background-size: cover;
+}
+
+.destinations-packages.payments .content-container .image-gallery .image.secound {
+  background: url(../img/destinations-page/cidade-noturna-mobile.png) no-repeat;
+  background-size: cover;
+}
+
+.destinations-packages.payments .content-container .image-gallery .image.third {
+  background: url(../img/destinations-page/guarda-chuva-mobile.png) no-repeat;
+  background-size: cover;
+}
+
 @media screen and (min-width: 768px) {
   .payments .content-container .image-gallery .image.first {
     background: url(../img/index/mala-tablet.png) no-repeat;
@@ -39,6 +60,22 @@
 
   .payments .content-container .image-gallery .image.third {
     background: url(../img/index/pessoas-tablet.png) no-repeat;
+    background-size: cover;
+  }
+
+  /* PACOTES DE VIAGENS */
+  .destinations-packages.payments .content-container .image-gallery .image.first {
+    background: url(../img/destinations-page/templo-japao-desk-tablet.png.png) no-repeat;
+    background-size: cover;
+  }
+
+  .destinations-packages.payments .content-container .image-gallery .image.secound {
+    background: url(../img/destinations-page/cidade-noturna-desk-tablet.png) no-repeat;
+    background-size: cover;
+  }
+
+  .destinations-packages.payments .content-container .image-gallery .image.third {
+    background: url(../img/destinations-page/guarda-chuva-desk-tablet.png) no-repeat;
     background-size: cover;
   }
 }
@@ -56,5 +93,11 @@
   .payments .content-container .image-gallery {
     width: 790px;
     margin: 0;
+  }
+
+  /* PACOTES DE VIAGENS */
+
+  .payments .content-title-strong {
+    margin-top: 96px;
   }
 }
