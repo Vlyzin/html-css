@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Jornada Viagens, Somos uma agência apaixonada por criar viagens inesquecíveis." />
+
+    <meta name="og:title" content="Jornada Viagens" />
+    <meta name="og:description" content="Jornada Viagens, Somos uma agência apaixonada por criar viagens inesquecíveis." />
+    <meta name="og:image" content="https://vlyzin.github.io/html-css/jornada-viagens/img/logo-footer.png" />
+    <meta name="og:type" content="website" />
+    <meta name="og:url" content="https://vlyzin.github.io/html-css/jornada-viagens" />
+
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="icon" href="favico.png" id="favicon" />
+    <title>Jornada Viagens - Contato</title>
+    <meta />
+  </head>
+
+  <body>
+    <header class="main-header">
+      <a class="logo" href="index.html" title="Retornar a pagina inicial">
+        <img class="img-mobile" src="img/header-footer/bussola-jornada-branco.png" alt="Bussola do logo joranada viagens cor branca" />
+        <img class="img-desktop" src="img/header-footer/bussola-texto-jornada-branco.png" alt="Logo joranada viagens cor branca" />
+      </a>
+      <div class="navigation-menu">
+        <label for="menu"><img src="img/header-footer/menu.png" alt="Menu hamburguer" /></label>
+        <input type="checkbox" id="menu" hidden />
+        <nav>
+          <ul class="list-links">
+            <li><a href="blog.html" target="_self" title="Acessar Blog">Blog</a></li>
+            <li><a href="pacotes.html" target="_self" title="Acessar Pacotes de viagem">Pacotes de viagem</a></li>
+            <li><a href="contato.html" class="active" target="_self" title="Acessar Contato">Contato</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <section class="contact hero">
+      <div class="hero-img">
+        <div class="hero-content">
+          <h1>Entre em contato!</h1>
+          <hr />
+          <p>Dúvidas, sugestões, problemas para resolver? Temos uma equipe de plantão para ajudar você!</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact">
+      <div class="section-title">
+        <h2>Preencha o formulário:</h2>
+        <hr />
+      </div>
+      <p class="content-text">
+        Temos uma equipe sempre em prontidão para resolver suas dúvidas, problemas, trazer dicas e orientações objetivas para tornar sua experiência o mais
+        prazerosa e tranquila possível. Preencha seus dados que vamos retornar seu contato conforme a urgência do seu chamado. Pode confiar!
+      </p>
+
+      <form action="contato.html" method="get">
+        <fieldset class="contact-forms">
+          <div class="name">
+            <input id="name" type="text" name="userName" placeholder="Seu nome" required />
+          </div>
+
+          <div class="phone">
+            <input id="phoneNumber" type="tel" name="userPhoneNumber" placeholder="Telefone" pattern="[0-9]{11}" aria-describedby="phoneHelp" />
+          </div>
+
+          <div class="email">
+            <input id="email" type="email" name="userEmail" placeholder="E-mail" />
+          </div>
+
+          <div class="subject">
+            <input id="subject" type="text" name="commentSubject" placeholder="Assunto" required />
+          </div>
+
+          <div class="comment">
+            <p>Comentario</p>
+            <textarea id="comment" name="userComment" placeholder=""></textarea>
+          </div>
+          <button type="submit" class="button" aria-label="Enviar dados do formulario">Enviar</button>
+        </fieldset>
+      </form>
+    </section>
+
+    <section class="contact bottom-hero">
+      <div class="hero-img"></div>
+    </section>
+
+    <footer class="main-footer">
+      <div class="footer-content">
+        <img src="img/header-footer/logo-footer.png" alt="Logo completo Jornada Viagens" width="162px" height="40px" />
+        <p>Horário de atendimento: 08h - 20h (Segunda a Sábado)</p>
+        <p>Desenvolvido por Alura. Projeto fictício sem fins comerciais.</p>
+      </div>
+
+      <div class="footer-social">
+        <p>Acesse nossas redes:</p>
+        <a href="#" target="_blank" title="Acesse o Twitter do Jornada Viagens"><img src="img/svg/twitter.svg" alt="icone do Twitter na cor branca" /></a>
+
+        <a href="#" target="_blank" title="Acesse o Instagram do Jornada Viagens">
+          <img src="img/svg/instagram.svg" alt="icone do Instagram na cor branca" />
+        </a>
+
+        <a href="#" target="_blank" title="Entre em contato através do whatsapp"><img src="img/svg/whatsapp.svg" alt="icone do whatsapp na cor branca" /></a>
+      </div>
+    </footer>
+  </body>
+</html>
