@@ -1,143 +1,115 @@
+/* =====================================================
+   HERO – GLOBAIS
+===================================================== */
+
+.hero-img {
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.hero-content {
+  padding: 65px 24px;
+}
+
+.hero-content h1 {
+  font-size: 48px;
+  color: var(--text-secondary-color);
+  font-weight: var(--title-weight);
+}
+
+.hero-content p {
+  font-size: 20px;
+  color: var(--text-secondary-color);
+  font-weight: var(--text-weight);
+  line-height: 32px;
+}
+
+.hero-content hr {
+  width: 180px;
+  height: 4px;
+  background-color: var(--secondary-color);
+  border: none;
+  margin: 16px 0 32px;
+}
+
+/* =====================================================
+   HERO – HOME
+===================================================== */
+
 .hero .hero-img,
 .bottom-hero .hero-img {
   height: 400px;
-  width: 100%;
 }
+
 .hero .hero-img {
-  background: url(../img/index/hero-mobile.png) no-repeat;
-  background-size: cover;
+  background-image: url(../img/index/hero-mobile.png);
 }
+
 .bottom-hero .hero-img {
-  background: url(../img/index/footer-mobile.png) no-repeat;
-  background-size: cover;
+  background-image: url(../img/index/footer-mobile.png);
 }
 
 .hero h2 {
   padding: 88px 24px;
-  margin: 0px;
+  margin: 0;
   font-weight: var(--text-weight);
   font-size: 20px;
   line-height: 1.5;
   text-align: center;
 }
 
-/* PACOTES DE VIAGENS */
-.destinations-packages.hero {
-  margin-bottom: 88px;
-}
-.destinations-packages .hero-img {
-  height: 460px;
-  background: url(../img/destinations-page/japao-hero-mobile.png) no-repeat;
-  background-size: cover;
-}
-.destinations-packages.bottom-hero .hero-img {
-  height: 400px;
-  background: url(../img/destinations-page/japao-footer-mobile.png) no-repeat;
-  background-size: cover;
-}
-.destinations-packages .hero-content {
-  padding: 65px 24px;
-}
-.destinations-packages .hero-content h1 {
-  font-size: 48px;
-  color: var(--text-secondary-color);
-  font-weight: var(--title-weight);
-}
-.destinations-packages .hero-content hr {
-  width: 180px;
-  height: 4px;
-  background-color: var(--secondary-color);
-  border: none;
-  margin: 16px 0 32px;
-}
-.destinations-packages .hero-content p {
-  font-size: 20px;
-  color: var(--text-secondary-color);
-  font-weight: var(--text-weight);
-  line-height: 32px;
-}
+/* =====================================================
+   HERO – PÁGINAS INTERNAS
+===================================================== */
 
-/* BLOGSPOT */
-.blogspot .hero {
-  margin-bottom: 88px;
-}
-.blogspot .hero-img {
-  height: 460px;
-  background: url(../img/blog-page/hero-japao-mobile.png) no-repeat;
-  background-size: cover;
-}
-
-.blogspot .hero-content {
-  padding: 65px 24px;
-}
-.blogspot .hero-content h1 {
-  font-size: 48px;
-  color: var(--text-secondary-color);
-  font-weight: var(--title-weight);
-}
-.blogspot .hero-content hr {
-  width: 180px;
-  height: 4px;
-  background-color: var(--secondary-color);
-  border: none;
-  margin: 16px 0 32px;
-}
-.blogspot .hero-content p {
-  font-size: 20px;
-  color: var(--text-secondary-color);
-  font-weight: var(--text-weight);
-  line-height: 32px;
-}
-
-/* CONTACT */
-
+.destinations-packages.hero,
+.blogspot .hero,
 .contact .hero {
   margin-bottom: 88px;
 }
+
+/* DESTINATIONS */
+.destinations-packages .hero-img {
+  height: 460px;
+  background-image: url(../img/destinations-page/japao-hero-mobile.png);
+}
+
+.destinations-packages.bottom-hero .hero-img {
+  height: 400px;
+  background-image: url(../img/destinations-page/japao-footer-mobile.png);
+}
+
+/* BLOG */
+.blogspot .hero-img {
+  height: 460px;
+  background-image: url(../img/blog-page/hero-japao-mobile.png);
+}
+
+/* CONTACT */
 .contact .hero-img {
   height: 460px;
-  background: url(../img/contact/contact-hero.png) no-repeat;
-  background-size: cover;
+  background-image: url(../img/contact/contact-hero.png);
 }
 
 .contact.bottom-hero .hero-img {
-  background: url(../img/contact/contact-footer.png) no-repeat;
-  background-size: cover;
   height: 400px;
+  background-image: url(../img/contact/contact-footer.png);
 }
 
-.contact .hero-content {
-  padding: 65px 24px;
-}
-.contact .hero-content h1 {
-  font-size: 48px;
-  color: var(--text-secondary-color);
-  font-weight: var(--title-weight);
-}
-.contact .hero-content hr {
-  width: 180px;
-  height: 4px;
-  background-color: var(--secondary-color);
-  border: none;
-  margin: 16px 0 32px;
-}
-.contact .hero-content p {
-  font-size: 20px;
-  color: var(--text-secondary-color);
-  font-weight: var(--text-weight);
-  line-height: 32px;
-}
+/* =====================================================
+   BREAKPOINT – TABLET
+===================================================== */
 
 @media screen and (min-width: 768px) {
   .hero .hero-img {
     height: 620px;
-    background: url(../img/index/hero-tablet.png) no-repeat;
-    background-size: cover;
+    background-image: url(../img/index/hero-tablet.png);
   }
+
   .bottom-hero .hero-img {
     height: 400px;
-    background: url(../img/index/footer-tablet.png) no-repeat;
-    background-size: cover;
+    background-image: url(../img/index/footer-tablet.png);
   }
 
   .hero h2 {
@@ -145,138 +117,102 @@
     font-size: 32px;
   }
 
-  /* PACOTES DE VIAGENS */
-  .destinations-packages .hero-content {
+  .hero-content {
     padding: 210px 70px 107px;
   }
 
-  .destinations-packages .hero-content p {
+  .hero-content p {
     font-size: 32px;
     line-height: 48px;
   }
+
+  /* DESTINATIONS */
   .destinations-packages .hero-img {
-    background: url(../img/destinations-page/japao-hero-tablet.png) no-repeat;
-    background-size: cover;
     height: 620px;
+    background-image: url(../img/destinations-page/japao-hero-tablet.png);
   }
+
   .destinations-packages.bottom-hero .hero-img {
     height: 400px;
-    background: url(../img/destinations-page/japao-footer-tablet.png) no-repeat;
-    background-size: cover;
+    background-image: url(../img/destinations-page/japao-footer-tablet.png);
   }
 
-  /* BLOGSPOT */
-  .blogspot .hero-content {
-    padding: 210px 70px 107px;
-  }
-
-  .blogspot .hero-content p {
-    font-size: 32px;
-    line-height: 150%;
-  }
+  /* BLOG */
   .blogspot .hero-img {
-    background: url(../img/blog-page/hero-japao-tablet.png) no-repeat;
-    background-size: cover;
     height: 620px;
+    background-image: url(../img/blog-page/hero-japao-tablet.png);
   }
 
   /* CONTACT */
-
-  .contact .hero-content {
-    padding: 210px 70px 107px;
-  }
-
-  .contact .hero-content p {
-    font-size: 32px;
-    line-height: 48px;
-  }
-
   .contact .hero-img {
     height: 620px;
-    background: url(../img/contact/contact-hero-tablet.png) no-repeat;
-    background-size: cover;
+    background-image: url(../img/contact/contact-hero-tablet.png);
   }
 
   .contact.bottom-hero .hero-img {
-    background: url(../img/contact/contact-footer-tablet.png) no-repeat;
-    background-size: cover;
     height: 600px;
+    background-image: url(../img/contact/contact-footer-tablet.png);
   }
 }
 
+/* =====================================================
+   BREAKPOINT – DESKTOP
+===================================================== */
+
 @media screen and (min-width: 1024px) {
   .hero .hero-img {
-    background: url(../img/index/hero-desktop.png) no-repeat;
-    background-size: cover;
+    background-image: url(../img/index/hero-desktop.png);
   }
 
   .bottom-hero .hero-img {
     height: 600px;
-    background: url(../img/index/footer-desktop.png) no-repeat;
-    background-size: cover;
+    background-image: url(../img/index/footer-desktop.png);
   }
+
   .hero h2 {
     padding: 88px 120px;
   }
-  /* PACOTES DE VIAGENS */
-  .destinations-packages .hero-content {
+
+  .hero-content {
     padding: 150px 120px 170px;
     margin: 0 auto;
   }
-  .destinations-packages .hero-content p {
+
+  .hero-content p {
     width: 570px;
   }
+
+  /* DESTINATIONS */
   .destinations-packages .hero-img {
-    background: url(../img/destinations-page/japao-hero-desktop.png) no-repeat;
-    background-size: cover;
+    background-image: url(../img/destinations-page/japao-hero-desktop.png);
   }
+
   .destinations-packages.bottom-hero .hero-img {
     height: 600px;
-    background: url(../img/destinations-page/japao-footer-desktop.png) no-repeat;
-    background-size: cover;
+    background-image: url(../img/destinations-page/japao-footer-desktop.png);
   }
 
-  /* BLOGSPOT */
-
-  .blogspot .hero-content {
-    padding: 150px 120px 170px;
-    margin: 0 auto;
-  }
-  .blogspot .hero-content p {
-    width: 570px;
-  }
+  /* BLOG */
   .blogspot .hero-img {
-    background: url(../img/blog-page/hero-japao-desk.png) no-repeat;
-    background-size: cover;
+    background-image: url(../img/blog-page/hero-japao-desk.png);
   }
 
   /* CONTACT */
-
   .contact .hero-img {
-    background: url(../img/contact/contact-hero-desk.png) no-repeat;
-    background-size: cover;
+    background-image: url(../img/contact/contact-hero-desk.png);
   }
 
   .contact.bottom-hero .hero-img {
-    background: url(../img/contact/contact-footer-desk.png) no-repeat;
-    background-size: cover;
+    background-image: url(../img/contact/contact-footer-desk.png);
   }
 }
 
+/* =====================================================
+   BREAKPOINT – ULTRA WIDE
+===================================================== */
+
 @media screen and (min-width: 1440px) {
-  /* PACOTES DE VIAGENS */
-  .destinations-packages .hero-content {
-    width: 1200px;
-  }
-
-  /* BLOGSPOT */
-  .blogspost .hero-content {
-    width: 1200px;
-  }
-
-  /* CONTACT */
-
-  .contact .hero-content {
+  .hero-content {
     width: 1200px;
   }
 }
