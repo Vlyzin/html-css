@@ -1,0 +1,133 @@
+.contact .content-text,
+.contact form {
+  max-width: 312px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.contact .content-text {
+  font-size: 16px;
+  line-height: 28px;
+  text-align: center;
+}
+
+.contact-forms {
+  width: 100%;
+  padding: 16px 0;
+  border: none;
+  margin-top: 56px;
+  display: flex;
+  flex-direction: column;
+  gap: 64px;
+  font-family: "Montserrat";
+  color: #8c8c8c;
+}
+
+.contact-forms input,
+.contact-forms textarea {
+  width: 100%;
+  border: none;
+  border-bottom: 3px solid #d9d9d9;
+  padding: 8px 4px;
+  font-size: 14px;
+  font-family: "Montserrat";
+  outline: none;
+  color: #222222;
+}
+
+.contact-forms input::placeholder,
+.contact-forms textarea::placeholder {
+  color: #8c8c8c;
+  font-size: 20px;
+  line-height: 32px;
+  font-weight: var(--text-weight);
+  font-family: "Montserrat";
+}
+
+.contact-forms input::-webkit-input-placeholder,
+.contact-forms textarea::-webkit-input-placeholder {
+  color: #8c8c8c;
+}
+
+.contact-forms input:-ms-input-placeholder,
+.contact-forms textarea:-ms-input-placeholder {
+  color: #8c8c8c;
+}
+
+.contact-forms input:focus,
+.contact-forms textarea:focus {
+  border-bottom-color: #c00000;
+  color: #222222;
+}
+
+.contact-forms input:focus::placeholder,
+.contact-forms textarea:focus::placeholder {
+  color: #222222;
+}
+
+.contact-forms textarea {
+  border: 3px solid #d9d9d9;
+  border-radius: 8px;
+  padding: 8px;
+  resize: none;
+  height: 90px;
+}
+
+.contact-forms .comment p {
+  margin: 0;
+  color: #8c8c8c;
+  font-size: 20px;
+  line-height: 32px;
+  font-weight: var(--text-weight);
+  font-family: "Montserrat";
+}
+
+form .button {
+  width: 312px;
+  font-family: "Montserrat";
+  border: none;
+  border-radius: 8px;
+}
+
+@media screen and (min-width: 768px) {
+  .contact .content-text,
+  .contact form {
+    max-width: 648px;
+  }
+
+  .contact .content-text {
+    font-size: 20px;
+    line-height: 32px;
+  }
+
+  form .button {
+    width: 648px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .contact .content-text,
+  .contact form {
+    max-width: 1200px;
+  }
+
+  .contact-forms {
+    max-width: 790px;
+    margin-left: auto;
+    margin-right: auto;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 32px;
+  }
+
+  .contact-forms .name,
+  .contact-forms .subject,
+  .contact-forms .comment,
+  .contact-forms .button {
+    grid-column: 1 / -1;
+  }
+
+  .contact-forms .button {
+    width: 100%;
+  }
+}

@@ -46,7 +46,7 @@
       </div>
     </section>
 
-    <section class="destinations">
+    <section class="contact">
       <div class="section-title">
         <h2>Preencha o formulário:</h2>
         <hr />
@@ -55,6 +55,32 @@
         Temos uma equipe sempre em prontidão para resolver suas dúvidas, problemas, trazer dicas e orientações objetivas para tornar sua experiência o mais
         prazerosa e tranquila possível. Preencha seus dados que vamos retornar seu contato conforme a urgência do seu chamado. Pode confiar!
       </p>
+
+      <form action="contato.html" method="get">
+        <fieldset class="contact-forms">
+          <div class="name">
+            <input id="name" type="text" name="userName" placeholder="Seu nome" required />
+          </div>
+
+          <div class="phone">
+            <input id="phoneNumber" type="tel" name="userPhoneNumber" placeholder="Telefone" pattern="[0-9]{11}" aria-describedby="phoneHelp" />
+          </div>
+
+          <div class="email">
+            <input id="email" type="email" name="userEmail" placeholder="E-mail" />
+          </div>
+
+          <div class="subject">
+            <input id="subject" type="text" name="commentSubject" placeholder="Assunto" required />
+          </div>
+
+          <div class="comment">
+            <p>Comentario</p>
+            <textarea id="comment" name="userComment" placeholder=""></textarea>
+          </div>
+          <button type="submit" class="button" aria-label="Enviar dados do formulario">Enviar</button>
+        </fieldset>
+      </form>
     </section>
 
     <section class="contact bottom-hero">
