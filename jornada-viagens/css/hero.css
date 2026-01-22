@@ -31,6 +31,7 @@
   background-size: cover;
 }
 .destinations-packages.bottom-hero .hero-img {
+  height: 400px;
   background: url(../img/destinations-page/japao-footer-mobile.png) no-repeat;
   background-size: cover;
 }
@@ -88,6 +89,45 @@
   line-height: 32px;
 }
 
+/* CONTACT */
+
+.contact .hero {
+  margin-bottom: 88px;
+}
+.contact .hero-img {
+  height: 460px;
+  background: url(../img/contact/contact-hero.png) no-repeat;
+  background-size: cover;
+}
+
+.contact.bottom-hero .hero-img {
+  background: url(../img/contact/contact-footer.png) no-repeat;
+  background-size: cover;
+  height: 400px;
+}
+
+.contact .hero-content {
+  padding: 65px 24px;
+}
+.contact .hero-content h1 {
+  font-size: 48px;
+  color: var(--text-secondary-color);
+  font-weight: var(--title-weight);
+}
+.contact .hero-content hr {
+  width: 180px;
+  height: 4px;
+  background-color: var(--secondary-color);
+  border: none;
+  margin: 16px 0 32px;
+}
+.contact .hero-content p {
+  font-size: 20px;
+  color: var(--text-secondary-color);
+  font-weight: var(--text-weight);
+  line-height: 32px;
+}
+
 @media screen and (min-width: 768px) {
   .hero .hero-img {
     height: 620px;
@@ -139,6 +179,29 @@
     background-size: cover;
     height: 620px;
   }
+
+  /* CONTACT */
+
+  .contact .hero-content {
+    padding: 210px 70px 107px;
+  }
+
+  .contact .hero-content p {
+    font-size: 32px;
+    line-height: 48px;
+  }
+
+  .contact .hero-img {
+    height: 620px;
+    background: url(../img/contact/contact-hero-tablet.png) no-repeat;
+    background-size: cover;
+  }
+
+  .contact.bottom-hero .hero-img {
+    background: url(../img/contact/contact-footer-tablet.png) no-repeat;
+    background-size: cover;
+    height: 600px;
+  }
 }
 
 @media screen and (min-width: 1024px) {
@@ -186,6 +249,18 @@
     background: url(../img/blog-page/hero-japao-desk.png) no-repeat;
     background-size: cover;
   }
+
+  /* CONTACT */
+
+  .contact .hero-img {
+    background: url(../img/contact/contact-hero-desk.png) no-repeat;
+    background-size: cover;
+  }
+
+  .contact.bottom-hero .hero-img {
+    background: url(../img/contact/contact-footer-desk.png) no-repeat;
+    background-size: cover;
+  }
 }
 
 @media screen and (min-width: 1440px) {
@@ -196,6 +271,12 @@
 
   /* BLOGSPOT */
   .blogspost .hero-content {
+    width: 1200px;
+  }
+
+  /* CONTACT */
+
+  .contact .hero-content {
     width: 1200px;
   }
 }
