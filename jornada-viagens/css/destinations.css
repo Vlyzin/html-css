@@ -1,8 +1,10 @@
-/* THIS STYLE IS BOTH USED ON INDEX.HTML AND PACOTES.HTML */
-
 .destinations {
   width: 312px;
   margin: 0 auto;
+}
+
+.destinations.blog {
+  margin-bottom: 88px;
 }
 
 .destination-items {
@@ -28,6 +30,18 @@
   margin-top: 40px;
 }
 
+.destinations .img-item.hiroshima {
+  background: url(../img/blog-page/hiroshima-mobile.jpg) no-repeat center;
+  background-size: cover;
+  margin-top: 40px;
+}
+
+.destinations .img-item.kyoto {
+  background: url(../img/blog-page/kyoto-mobile.png) no-repeat center;
+  background-size: cover;
+  margin-top: 40px;
+}
+
 .destinations .item p {
   margin-bottom: 24px;
 }
@@ -39,6 +53,10 @@
 @media screen and (min-width: 768px) {
   .destinations {
     width: 648px;
+  }
+
+  .destinations.blog {
+    margin-bottom: 104px;
   }
 
   .destinations .img-item {
@@ -88,5 +106,19 @@
 
   .destinations .img-item.osaka {
     margin-top: 0;
+  }
+
+  .destinations.blog .img-item.osaka {
+    height: 300px;
+  }
+
+  .destinations.blog .img-item.hiroshima {
+    margin-top: 0;
+    height: 300px;
+  }
+
+  .destinations.blog .img-item.kyoto {
+    margin-top: 0;
+    height: 300px;
   }
 }
